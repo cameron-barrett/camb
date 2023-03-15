@@ -1,2 +1,5 @@
 title: Perfect Pot
 theme: minima
+include:
+  index.md
+  updates.md
