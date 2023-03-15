@@ -3,6 +3,6 @@ theme: minima
 include:
   index.md
   updates.md
-  
- minima:
-  show_excerpts: false
+ 
+ author:
+  name: GitHub User
