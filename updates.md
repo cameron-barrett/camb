@@ -16,7 +16,17 @@ The parts arrived, and we are working to create test implementations of them on 
 * Wireless updates about system status and plant health
 
 ## 3/17/23
-We have basic functionality on all of the peripherals except for Bluetooth. We can use the input from the capacitive moisture sensor to control the relay which controls the pump. Remaining tasks:
+We have basic functionality on all of the originally planned peripherals:
 
-1. Bluetooth interface
-2. More sophisticated control loop
+* Moisture sensor reading
+* Temperature sensor reading
+* Bluetooth sending data to primary device
+* Relay/pump control
+
+We have packaged all the parts into a foam enclosure to keep it contained and hopefully protected from moisture and soil. The key remaining tasks are:
+
+1. Create a more sophisticated control loop for the pump
+2. Figure out the output end of the water tube to the plant
+3. Protect the electronics on the moisture sensor from water
+
+To make the project even more polished if time allows, we may attempt to add a photoelectric sensor, add remote control over Bluetooth (as opposed to only receiving updates), and create an Android app.
