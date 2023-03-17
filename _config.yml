@@ -5,3 +5,7 @@ include:
   updates.md
  
 author: "Cameron Barrett & Torin Schlunk"
+
+aux_links:
+  "Code":
+    - "https://github.com/perfect-pot/perfect-pot"
