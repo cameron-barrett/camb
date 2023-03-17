@@ -1,5 +1,3 @@
-# Updates
-
 ## 3/3/23
 Parts are shipping, due to arrive Monday/Tuesday next week. We ordered a Gikfun R385 pump kit including:
 
@@ -16,3 +14,9 @@ The parts arrived, and we are working to create test implementations of them on 
 
 * Automatic control of watering and drying cycles
 * Wireless updates about system status and plant health
+
+## 3/17/23
+We have basic functionality on all of the peripherals except for Bluetooth. We can use the input from the capacitive moisture sensor to control the relay which controls the pump. Remaining tasks:
+
+1. Bluetooth interface
+2. More sophisticated control loop
