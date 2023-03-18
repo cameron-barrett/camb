@@ -1,5 +1,5 @@
 ---
-title: Code
+title: 🔗 Code
 ---
 
 ### Redirecting to GitHub code repository ...
