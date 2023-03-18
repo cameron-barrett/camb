@@ -1,4 +1,6 @@
-# Updates
+---
+title: Updates
+---
 
 ## 3/3/23
 Parts are shipping, due to arrive Monday/Tuesday next week. We ordered a Gikfun R385 pump kit including:
