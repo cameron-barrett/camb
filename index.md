@@ -1,1 +1,3 @@
-This is our final project for UCSB's ECE153B Embedded Systems class! Right now this website is just a stub. More information and beautification to come soon!
+## Overview
+
+Perfect Pot is an autonomous watering and monitoring system for plants. Using temperature and moisture sensors it can deliver optimal amounts of water to the plant(s) at the optimal time. Water can be recirculated from the bottom of a pot to the top, with the user receiving a prompt to refill once it runs out.
