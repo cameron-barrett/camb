@@ -7,3 +7,7 @@ include:
 github_username: perfect-pot
  
 author: "Cameron Barrett & Torin Schlunk"
+
+header_pages:
+  - parts.md
+  - updates.md
