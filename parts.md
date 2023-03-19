@@ -31,7 +31,7 @@ The relay is used so that the microcontroller can control the DC pump, since it 
 
 ![bluetooth module](images/bluetooth_large.jpg)
 
-The Bluetooth module provides a way for the project to wireless send information to the user's devices for monitoring and updates. For example, Perfect Pot can send a notification to the user if it detects it is out of water. Communication over Bluetooth uses the UART protocol.
+The Bluetooth module provides a way for the project to wirelessly send information to the user's devices for monitoring and updates. For example, Perfect Pot can send a notification to the user if it detects it has run out of water. Communication over Bluetooth uses the UART protocol.
 
 ## TC74 Temperature Sensor
 
