@@ -11,6 +11,8 @@ Parts are shipping, due to arrive Monday/Tuesday next week. We ordered a Gikfun 
 * 2x Silica Gel Fixed Ring Mounts
 * 2x 5 V Relay
 * 5x Songhe Capactive Moisture Sensors
+
+
 We created a plan for assembly and picked up Poron foam for prototyping.
 
 ## 3/10/23
