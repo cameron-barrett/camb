@@ -5,9 +5,6 @@ github_username: perfect-pot
  
 author: "Cameron Barrett & Torin Schlunk"
 
-include:
-  - _layouts/head.html
-
 header_pages:
   - index.md
   - parts.md
