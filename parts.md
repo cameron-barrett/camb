@@ -19,7 +19,7 @@ The most essential sensor for the project, the large capacitor in the copper lay
 
 ![pump](images/pump_large.jpg)
 
-The pump is the main output for the project. When given power, it moves water from the resevoir at the bottom of the pot up to the top of the soil.
+The pump is the main output for the project. When given power, it moves water from the reservoir at the bottom of the pot up to the top of the soil.
 
 ## Relay
 
@@ -31,7 +31,7 @@ The relay is used so that the microcontroller can control the DC pump, since it 
 
 ![bluetooth module](images/bluetooth_large.jpg)
 
-The Bluetooth module provides a way for the project to wirelessly send information to the user's devices for monitoring and updates. For example, Perfect Pot can send a notification to the user if it detects it has run out of water. Communication over Bluetooth uses the UART protocol.
+The Bluetooth module provides a way for the project to wirelessly send information to the user's devices for monitoring and updates. For example, Perfect Pot can send a notification to the user if it detects it has run out of water. The HC-05 uses the UART protocol.
 
 ## TC74 Temperature Sensor
 
