@@ -1,13 +1,11 @@
 title: Perfect Pot
 theme: minima
-include:
-  index.md
-  updates.md
   
 github_username: perfect-pot
  
 author: "Cameron Barrett & Torin Schlunk"
 
 header_pages:
+  - index.md
   - parts.md
   - updates.md
