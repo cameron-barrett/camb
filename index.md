@@ -5,7 +5,7 @@ layout: page
 
 ## Overview
 
-Perfect Pot is an autonomous watering and monitoring system for plants. Using temperature and moisture sensors it can deliver optimal amounts of water to the plant(s) at the optimal time. Water can be recirculated from the bottom of a pot to the top, with the user receiving a prompt to refill once it runs out.
+Perfect Pot is a plant pot with an integrated watering system that will intelligently determine how much and how often to water your plants, saving you time and ensuring optimal plant health. Our system senses the moisture level in the soil and automatically adjusts the watering schedule to suit the needs of the plants. Perfect Pot also recirculates water as it drains. This not only saves water, but also helps to prevent nutrient loss, keeping your plants healthy and happy for longer.
 
 ## Block Diagram
 
