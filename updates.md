@@ -3,6 +3,7 @@ title: Updates
 ---
 
 ## 3/3/23
+
 Parts are shipping, due to arrive Monday/Tuesday next week. We ordered a Gikfun R385 pump kit including:
 
 * DC Diaphragm Pump
@@ -16,12 +17,14 @@ Parts are shipping, due to arrive Monday/Tuesday next week. We ordered a Gikfun 
 We created a plan for assembly and picked up Poron foam for prototyping.
 
 ## 3/10/23
+
 The parts arrived, and we are working to create test implementations of them on the STM32L4. The included DC power supply for the pump might be too powerful for our needs. A finalized deliverables list was created for our project goals:
 
 * Automatic control of watering and drying cycles
 * Wireless updates about system status and plant health
 
 ## 3/17/23
+
 We have basic functionality on all of the originally planned peripherals:
 
 * Moisture sensor reading
@@ -36,3 +39,11 @@ We have packaged all the parts into a foam enclosure to keep it contained and ho
 3. Protect the electronics on the moisture sensor from water
 
 To make the project even more polished if time allows, we may attempt to add a photoelectric sensor, add remote control over Bluetooth (as opposed to only receiving updates), and create an Android app.
+
+## 3/22/23
+
+The control loop now runs much slower to allow more time for the soil conditions to change (for the prototype this cycle is still much faster than it probably should be for a final product), and we set a threshold moisture level that works well for demonstration purposes.
+
+We used foam on the watering end of the tube to prevent the water from spraying too much.
+
+We successfully demonstrated the core functionality of the product in the lab today.
