@@ -7,5 +7,6 @@ author: "Cameron Barrett & Torin Schlunk"
 
 header_pages:
   - index.md
+  - code.md
   - parts.md
   - updates.md
