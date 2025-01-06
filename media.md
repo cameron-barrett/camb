@@ -8,3 +8,9 @@ title: Media
 ![block diagram](images/IMG_3462.jpg)
 <p style="text-align:center;">Camping at Pear Lake, Sequoia National Park 6/12/2024.</p>
 
+![block diagram](images/IMG_4624.jpg)
+<p style="text-align:center;">Interning at NVIDIA 8/23/2024.</p>
+
+![block diagram](images/IMG_2577.jpg)
+<p style="text-align:center;">Flying with Jake Greenbaum 4/12/2024.</p>
+
