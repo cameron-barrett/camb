@@ -1,4 +1,4 @@
-title: Perfect Pot
+title: Cameron Barrett
 theme: minima
   
 github_username: cameron-barrett
@@ -7,6 +7,6 @@ author: "Cameron Barrett"
 
 header_pages:
   - index.md
-  - code.md
-  - parts.md
-  - updates.md
+  - media.md
+  - commonplace.md
+  - thoughts.md
