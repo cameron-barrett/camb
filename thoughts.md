@@ -1,5 +1,5 @@
 ---
-title: thoughts
+title: Thoughts
 ---
 
 blah labh
