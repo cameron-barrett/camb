@@ -12,9 +12,9 @@ title: Commonplace Book
 
 ## William Zinsser
 
-> Clutter is the disease of American writing. We are a society strangling in unnecessary words, circular constructions, pompous frills and meaningless jargon.
+> Clutter is the disease of American writing. We are a society strangling in unnecessary words, circular >constructions, pompous frills and meaningless jargon.
 
-Who can understand the clotted language of everyday American commerce:
+>Who can understand the clotted language of everyday American commerce:
 the memo, the corporation report, the business letter, the notice from the bank
 explaining its latest “simplified” statement? What member of an insurance or
 medical plan can decipher the brochure explaining his costs and benefits? What
