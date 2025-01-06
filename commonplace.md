@@ -1,5 +1,5 @@
 ---
-title: Commonplace Book
+title: commonplace book
 ---
 
 ## Nucleo-64 STM32L476RG
