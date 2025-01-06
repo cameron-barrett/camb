@@ -15,7 +15,7 @@ title: Media
 <p style="text-align:center;">Interning at NVIDIA 8/23/2024</p>
 
 ![block diagram](images/IMG_2577.JPG)
-<p style="text-align:center;">Flying with Jake Greenbaum 4/12/2024</p>
+<p style="text-align:center;">Flying over Camarillo with Jake Greenbaum 4/12/2024</p>
 
 ![block diagram](images/IMG_1428.jpg)
 <p style="text-align:center;">On the plains in Pray, Montana 12/19/2023</p>
