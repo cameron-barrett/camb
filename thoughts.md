@@ -1,0 +1,5 @@
+---
+title: thoughts
+---
+
+blah labh
