@@ -7,7 +7,7 @@ title: Commonplace Book
 > The fire had burned to coals and he lay looking up at the stars in their places and the hot belt of matter that ran the chord of the dark vault overhead and he put his hands on the ground at either side of him and pressed them against the earth and in that coldly burning canopy of black he slowly turned dead center to the world, all of it taut and trembling and moving enormous and alive under his hands.
 -- All The Pretty Horses, p. 119
 
-> They passed through a highland meadow carpeted with wild-Howers, acres of golden groundsel and zinnia and deep purple gentian and wild vines of blue morninglory and a vast plain of varied small blooms reaching onward like a gingham print to the farthest serried rimlands blue with haze and the adaman-tine ranges rising out of nothing like the backs of seabeasts in a devonian dawn.
+> They passed through a highland meadow carpeted with wildflowers, acres of golden groundsel and zinnia and deep purple gentian and wild vines of blue morninglory and a vast plain of varied small blooms reaching onward like a gingham print to the farthest serried rimlands blue with haze and the adamantine ranges rising out of nothing like the backs of seabeasts in a devonian dawn.
 -- Blood Meridian, p. 195
 
 ## William Zinsser
