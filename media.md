@@ -19,3 +19,13 @@ title: Media
 
 ![block diagram](images/IMG_1428.jpg)
 <p style="text-align:center;">On the plains in Pray, Montana 12/19/2023</p>
+
+![block diagram](images/IMG_1415.jpg)
+<p style="text-align:center;">6619 Del Playa Dr, Apt #3 12/13/2023</p>
+
+![block diagram](images/IMG_0651.jpg)
+<p style="text-align:center;">Cracker Lake in Glacier National Park 8/26/2023</p>
+
+![block diagram](images/IMG_0581.jpg)
+<p style="text-align:center;">Grinnell Lake in Glacier National Park 8/25/2023</p>
+
