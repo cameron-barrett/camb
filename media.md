@@ -1,5 +1,5 @@
 ---
-title: Media
+title: Places I've Been
 ---
 
 ![block diagram](images/IMG_5700.jpg)
