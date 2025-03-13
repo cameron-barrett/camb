@@ -1,5 +1,5 @@
 ---
-title: Views
+title: Images
 ---
 
 ![block diagram](images/IMG_5700.jpg)
