@@ -10,6 +10,12 @@ The fire had burned to coals and he lay looking up at the stars in their places 
 They passed through a highland meadow carpeted with wildflowers, acres of golden groundsel and zinnia and deep purple gentian and wild vines of blue morninglory and a vast plain of varied small blooms reaching onward like a gingham print to the farthest serried rimlands blue with haze and the adamantine ranges rising out of nothing like the backs of seabeasts in a devonian dawn.
 -- Blood Meridian, p. 195
 
+### Robert Shiller
+
+Finance, I believe, is a pillar of civilized society. It's the structure through which we do things, at least on a large scale. It's about allocating resources through space and time. It's about incentivizing people to do productive things. It's about sponsoring venues that bring people together, making sure people are fairly treated, that they contribute constructively, and that they get a return for doing that. And it's about managing risks, that anything we do in life is uncertain. Anything we do that is big or important is uncertain. To me, thats what financial markets are about. -- [Financial Markets](https://www.youtube.com/watch?v=WQui_3Hpmmc&list=PL8FB14A2200B87185), lecture 1
+
+Professor Shiller presents the history of thought underpinning financial markets, and explains their role as tools for building a better society. David Swensen gives an excellent guest lecture.
+
 ### William Zinsser
 
 Clutter is the disease of American writing. We are a society strangling in unnecessary words, circular constructions, pompous frills and meaningless jargon.
@@ -30,9 +36,3 @@ a short word, every adverb that carries the same meaning that’s already in the
 verb, every passive construction that leaves the reader unsure of who is doing
 what—these are the thousand and one adulterants that weaken the strength of
 a sentence. -- On Writing Well, p. 12
-
-### Robert Shiller
-
-Finance, I believe, is a pillar of civilized society. It's the structure through which we do things, at least on a large scale. It's about allocating resources through space and time. It's about incentivizing people to do productive things. It's about sponsoring venues that bring people together, making sure people are fairly treated, that they contribute constructively, and that they get a return for doing that. And it's about managing risks, that anything we do in life is uncertain. Anything we do that is big or important is uncertain. To me, thats what financial markets are about. -- [Financial Markets](https://www.youtube.com/watch?v=WQui_3Hpmmc&list=PL8FB14A2200B87185), lecture 1
-
-Professor Shiller presents the history of thought underpinning financial markets, and explains their role as tools for building a better society. David Swensen gives an excellent guest lecture.
