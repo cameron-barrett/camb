@@ -30,3 +30,6 @@ a short word, every adverb that carries the same meaning that’s already in the
 verb, every passive construction that leaves the reader unsure of who is doing
 what—these are the thousand and one adulterants that weaken the strength of
 a sentence. -- On Writing Well, p. 12
+
+### Robert Shiller
+Professor Shiller presents the history of thought underpinning financial markets, and explains their role as tools for building a better society. [Financial Markets (2011)](https://www.youtube.com/watch?v=WQui_3Hpmmc&list=PL8FB14A2200B87185). The guest lecture by David Swensen is excellent.
