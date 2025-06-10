@@ -32,4 +32,7 @@ what—these are the thousand and one adulterants that weaken the strength of
 a sentence. -- On Writing Well, p. 12
 
 ### Robert Shiller
-Professor Shiller presents the history of thought underpinning financial markets, and explains their role as tools for building a better society. [Financial Markets (2011)](https://www.youtube.com/watch?v=WQui_3Hpmmc&list=PL8FB14A2200B87185). The guest lecture by David Swensen is excellent.
+
+Finance, I believe, is a pillar of civilized society. It's the structure through which we do things, at least on a large scale. It's about allocating resources through space and time. It's about incentivizing people to do productive things. It's about sponsoring venues that bring people together, making sure people are fairly treated, that they contribute constructively, and that they get a return for doing that. And it's about managing risks, that anything we do in life is uncertain. Anything we do that is big or important is uncertain. To me, thats what financial markets are about. -- [Financial Markets](https://www.youtube.com/watch?v=WQui_3Hpmmc&list=PL8FB14A2200B87185), lecture 1
+
+Professor Shiller presents the history of thought underpinning financial markets, and explains their role as tools for building a better society. David Swensen gives an excellent guest lecture.
