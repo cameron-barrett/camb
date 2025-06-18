@@ -9,7 +9,7 @@ fi
 # Settings
 input_dir="./uncompressed"
 quality=80            # Compression quality (1–100)
-resize="50%"         # Resize value (e.g., 50%, 1024x768, or leave as "100%" for no scaling)
+resize="100%"         # Resize value (e.g., 50%, 1024x768, or leave as "100%" for no scaling)
 
 shopt -s nullglob
 for img in "$input_dir"/*.{jpg,JPG,jpeg,JPEG,png,PNG}; do
