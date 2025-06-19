@@ -21,7 +21,7 @@ fi
 
 # Settings
 quality=80
-#resize="3150000@"  # Keep original resolution; adjust if needed
+#resize="3150000@"
 resize="100%"  # Keep original resolution; adjust if needed
 
 # Start HTML
