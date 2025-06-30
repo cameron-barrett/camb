@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Photo Albums</title>
+
+  <style>
+    body {
+      margin: 1em auto;
+      max-width: 60%;
+      padding: 0 .62em;
+      font: 1.0em/1.6 serif;
+    }
+    h1 {
+      text-align: center;
+      line-height: 1.2;
+    }
+    .album-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 2em;
+    }
+    .album {
+      width: 30%;
+      text-align: center;
+    }
+    .album img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+    .album-link {
+      color: inherit;
+      text-decoration: none;
+    }
+    .album-link:hover {
+      text-decoration: underline;
+    }
+    .album-date {
+      display: block;
+      font-size: 0.85em;
+      color: #888;
+      margin-top: -0.5em;
+    }
+    footer {
+      text-align: right;
+      margin-top: 80px;
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Albums</h1>
+
+<div class="album-grid">
+  <div class="album">
+    <a class="album-link" href="albums/glacier/index.html">
+      <img src="albums/thumbnails/glacier_thumb.jpg" alt="Glacier National Park">
+      <p>Glacier National Park<br><span class="album-date">July 2022</span></p>
+    </a>
+  </div>
+
+  <div class="album">
+    <a class="album-link" href="albums/juneau/index.html">
+      <img src="albums/thumbnails/juneau_thumb.jpg" alt="Juneau, AK">
+      <p>Juneau, AK<br><span class="album-date">June 2024</span></p>
+    </a>
+  </div>
+
+  <div class="album">
+    <a class="album-link" href="albums/sequoia/index.html">
+      <img src="albums/thumbnails/sequoia_thumb.jpg" alt="Sequoia National Park">
+      <p>Sequoia National Park<br><span class="album-date">June 2024</span></p>
+    </a>
+  </div>
+
+  <div class="album">
+    <a class="album-link" href="albums/santa_barbara/index.html">
+      <img src="albums/thumbnails/santa_barbara_thumb.jpg" alt="Santa Barbara, CA">
+      <p>Santa Barbara, CA<br><span class="album-date">June 2025</span></p>
+    </a>
+  </div>
+
+  <div class="album">
+    <a class="album-link" href="albums/washington_dc/index.html">
+      <img src="albums/thumbnails/washington_dc_thumb.jpg" alt="Washington, D.C.">
+      <p>Washington, D.C.<br><span class="album-date">March 2025</span></p>
+    </a>
+  </div>
+
+  <div class="album">
+    <a class="album-link" href="albums/yosemite/index.html">
+      <img src="albums/thumbnails/yosemite_thumb.jpg" alt="Yosemite National Park">
+      <p>Yosemite National Park<br><span class="album-date">May 2023</span></p>
+    </a>
+  </div>
+
+  <div class="album">
+    <a class="album-link" href="albums/santa_ynez/index.html">
+      <img src="albums/thumbnails/santa_ynez_thumb.jpg" alt="Santa Ynez Mountains, CA">
+      <p>Santa Ynez Mountains, CA<br><span class="album-date">May 2025</span></p>
+    </a>
+  </div>
+</div>
+
+<footer>
+  <a href="index.html">← Back to Homepage</a>
+</footer>
+
+</body>
+</html>
