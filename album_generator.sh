@@ -100,7 +100,7 @@ done
 cat >> "$index_html" <<EOF
 
   <footer>
-    <a href="../../albums.html">← Back to Albums</a><br>
+    <a href="../../index.html">← Back to Homepage</a><br>
   </footer>
 </body>
 </html>
