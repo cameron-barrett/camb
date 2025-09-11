@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('./fonts/EBGaramond-400-Normal.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('./fonts/EBGaramond-400-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('./fonts/EBGaramond-700-Normal.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('./fonts/EBGaramond-700-Italic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./fonts/OpenSans-300-Normal.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('./fonts/JetBrainsMono-400-Normal.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('./fonts/JetBrainsMono-700-Normal.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  font-family: "EB Garamond", serif;
+  font-size-adjust: ex-height 0.53;
+  -webkit-text-size-adjust: 100%;
+  --line-height: 1.7rem;
+  line-height: var(--line-height);
+}
+
+body {
+  max-width: 80ch;
+  padding: 2ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2, h3 {
+    line-height: 1em;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    text-wrap: balance;
+}
+
+/* Mobile: narrower width for better readability */
+@media (max-width: 768px) {
+  body {
+    max-width: 60ch;
+    padding: 1.5ch;
+  }
+  aside img {
+    width: 70% !important;
+    max-width: 250px;
+  }
+}
+
+@media print {
+  body {
+    max-width: none;
+  }
+}
+
+footer {
+  text-align: right;
+  margin-top: 80px;
+  padding-bottom: 20px;
+}
