@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Cameron C. Barrett</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+<body class="hasCover">
+    <!--
+    COVER IMAGE: Spans full viewport width (thanks to body.hasCover removing constraints).
+    Stays in normal document flow so it scrolls naturally with page content.
+    -->
+    <img class="cover slice" src="money_bag_1943.8.2196.jpg" width="1400" height="600">
+
+    <!--
+    CONTENTS WRAPPER: Constrains all content below to readable 80ch width.
+    This is crucial - allows full-width image above while keeping text readable below.
+    H1 gets pulled up over image via negative margins but stays in this wrapper.
+    -->
+    <div class="contents">
+        <!--
+        TITLE: Gets white color on desktop and pulled up over image via negative margins.
+        Uses titleLines1 class for specific positioning (can have titleLines2, etc. for variations).
+        -->
+        <h1 class="titleLines1">Lorem</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer molestie ullamcorper metus id iaculis. Ut purus odio, facilisis non consequat ut, sollicitudin at orci. Nam tincidunt eros magna, ut consectetur nisi volutpat eu. Suspendisse laoreet aliquam tincidunt. Proin vel metus bibendum, faucibus orci eu, cursus enim. Duis faucibus erat vitae commodo euismod. Aenean commodo, felis non bibendum hendrerit, lectus ex porttitor metus, ullamcorper rhoncus tortor dui at mauris. Quisque efficitur neque quam, vel finibus ipsum tempus vitae. Cras porttitor vitae sem iaculis congue. Ut id metus placerat, sollicitudin massa vel, imperdiet libero. Quisque aliquet lacinia massa, sed varius sem sodales et. Mauris gravida turpis vitae diam pulvinar, id pellentesque enim rhoncus. Etiam viverra velit a tortor dapibus, et malesuada erat tincidunt. In gravida convallis ligula a dictum. Pellentesque eleifend, metus ac sollicitudin congue, elit lectus ornare ex, quis imperdiet magna massa ac dolor.
+
+        Donec eu erat tellus. Donec vehicula ante eu libero mattis, eget pharetra nibh pulvinar. Maecenas id est non felis tristique semper a sed justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus accumsan orci, non pharetra sem porttitor at. Donec pellentesque turpis non purus vehicula eleifend. Sed porttitor, neque id euismod dapibus, nisl nulla ullamcorper est, vel blandit velit ante eget nunc. Etiam vel turpis vestibulum, semper risus et, aliquam lorem. Donec auctor justo sed ipsum vestibulum, nec consequat quam molestie. Vivamus placerat, erat a euismod gravida, justo nunc eleifend purus, id ultricies ipsum ante vitae lorem. Quisque nec ligula a ante interdum ullamcorper. Nam molestie mauris non sapien accumsan, eu condimentum lorem sodales. Donec ac nisi faucibus, semper metus ac, hendrerit justo. Ut fermentum id nibh vel dignissim. Donec luctus odio ullamcorper interdum convallis.
+
+        Donec pharetra felis et lectus iaculis venenatis. Duis turpis sapien, dictum eget consectetur consequat, condimentum sed orci. Etiam sollicitudin vehicula lectus, vitae maximus lorem malesuada sed. Integer molestie libero sed nulla eleifend, vel maximus quam viverra. Aenean lorem massa, semper sed leo a, sagittis pretium dolor. Nulla orci nisl, rhoncus in ullamcorper eget, eleifend quis elit. Maecenas vehicula neque et tempus accumsan. Mauris et hendrerit leo, id accumsan tellus.
+
+        Phasellus tincidunt est nec massa gravida iaculis. Donec vel velit id risus commodo elementum quis sed neque. Vestibulum porttitor, elit et ullamcorper vulputate, velit lacus sagittis lectus, ut consequat ante dolor non ante. Integer vitae vestibulum nisi, sit amet malesuada orci. Donec urna tortor, maximus non lacus eu, laoreet placerat turpis. Curabitur justo felis, commodo pellentesque vehicula eu, pellentesque iaculis tellus. Maecenas dignissim tincidunt ipsum, a interdum augue imperdiet sed. Nulla tempus lorem ex, suscipit porttitor ipsum feugiat vel. Aliquam ac laoreet metus. Donec molestie sit amet lectus non scelerisque. Duis mollis, felis nec iaculis consequat, augue lorem vehicula mauris, quis pretium urna quam et erat. Praesent facilisis felis sapien. Duis ultrices eros non pellentesque dignissim. Nam volutpat at augue semper viverra. Vivamus nec turpis sit amet magna viverra mollis eleifend eget dolor.
+
+        Aliquam dapibus urna in purus ornare, vel ultrices nisl porttitor. Duis volutpat porta elit, et aliquet metus consectetur ut. Aliquam vehicula purus ornare ornare blandit. Sed vel iaculis est. Cras vel condimentum ligula, quis ullamcorper risus. Ut nec felis lacus. Fusce ligula tellus, imperdiet ut pharetra mollis, aliquam eget turpis. Nunc hendrerit nibh eu mauris tempor, et imperdiet tortor pellentesque. Duis elit risus, feugiat eget enim eu, ultrices iaculis leo.</p>
+
+        <footer>
+            <em>Money Bag</em>, c. 1936<br>
+            Roberta Spicer, American, active c. 1935<br>
+            Watercolor and graphite on paperboard<br>
+        </footer>
+    </div>
+</body>
+</html>
