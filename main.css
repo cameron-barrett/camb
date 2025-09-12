@@ -56,6 +56,23 @@ body {
   margin-right: auto;
 }
 
+body.hasCover {
+  max-width: none;  /* Remove 80ch constraint so image can go full-width */
+  padding: 0;       /* Remove body padding that would create white space */
+  margin: 0;        /* Remove default browser margins (fixes white strip at top) */
+}
+
+h1 {
+    font-size: 300%;
+    margin-top: 5em;
+    margin-bottom: 1.5em;
+}
+
+h2 {
+    font-size: 200%;
+    font-weight: normal;
+}
+
 h1, h2, h3 {
     line-height: 1em;
     font-weight: normal;
@@ -63,15 +80,33 @@ h1, h2, h3 {
     text-wrap: balance;
 }
 
-/* Mobile: narrower width for better readability */
+a, a:hover, a:visited {
+    color: #666;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #333;
+}
+
+
 @media (max-width: 768px) {
-  body {
-    max-width: 60ch;
-    padding: 1.5ch;
-  }
   aside img {
     width: 70% !important;
     max-width: 250px;
+  }
+
+  .album .landscape,
+  .album .portrait {
+    width: 100% !important;
+  }
+
+  .album header {
+    max-width: none;
   }
 }
 
@@ -81,8 +116,142 @@ h1, h2, h3 {
   }
 }
 
+img.cover {
+  margin-top: 0;   /* Remove any default image margins */
+  width: 100%;     /* Full width of container (viewport on cover pages) */
+  height: auto;    /* Maintain aspect ratio as container width changes */
+}
+
+img.cover.slice {
+  height: 80vh;    /* Take up 80% of viewport height */
+  object-fit: cover;  /* Crop image to fit while maintaining aspect ratio */
+  object-position: center 9%;  /* Show top portion of image (adjust as needed) */
+}
+
+/*
+DESKTOP COVER STYLING (701px+):
+Only applies white text and title positioning on larger screens where contrast is needed.
+Mobile keeps default black text for readability regardless of image content.
+
+TITLE POSITIONING STRATEGY:
+Instead of absolute positioning (which can cause layout issues), we use negative margins
+to pull the h1 up over the image. The h1 stays in normal document flow but appears
+visually overlaid on the image. This is more robust than absolute positioning.
+
+INTERACTIONS:
+- body.hasCover enables the full-width canvas
+- img.cover provides the background image to overlay on
+- .contents constrains text below while allowing image full-width
+*/
+@media (min-width: 701px) {
+/* Pull title up over image using negative margins (both units for robustness) */
+  body.hasCover h1.titleLines1 {
+    color: white;
+    font-size: 400%;
+    margin-top: -130px;   /* Pixel fallback for consistent positioning */
+    margin-top: -2.06em;  /* Em-based for scalability with font size changes */
+  }
+}
+
+/*
+CONTENTS WRAPPER:
+This is the key innovation that allows both full-width images AND constrained content.
+The wrapper constrains paragraph text to readable widths while the image above it
+can span the full viewport. Without this, all content would be constrained to 80ch.
+
+HOW IT WORKS:
+- Image appears first, spans full viewport width (thanks to body.hasCover)
+- .contents wrapper starts below image, constrains its children to 80ch max
+- Title (h1) is pulled up over image via negative margins, but stays inside .contents
+- Paragraphs flow normally within the constrained .contents width
+
+COMPLETE SYSTEM FLOW:
+1. body.hasCover removes width constraints for full-bleed design
+2. img.cover spans full width of unconstrained body
+3. h1.titleLines1 gets pulled up over image with negative margins
+4. .contents constrains all following content to readable width
+5. Result: Full-width hero image with readable text below
+*/
+.contents {
+  max-width: 60ch;
+  padding: 2ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 footer {
   text-align: right;
   margin-top: 80px;
   padding-bottom: 20px;
+  color: #666;
+  font-size: 0.85em;
+  line-height: 1.3;
+}
+
+/* Album page styles */
+body.album {
+  margin: 1em auto;
+  max-width: 60%;
+  padding: 0.62em;
+  font: 1.0em/1.6 "EB Garamond", serif;
+}
+
+.album img {
+  object-fit: contain;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.album .landscape {
+  width: 100%;
+  height: auto;
+}
+
+.album .portrait {
+  width: 60%;
+  height: auto;
+}
+
+.album header {
+  max-width: 100ch;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-bottom: 4em;
+}
+
+.album header h1 {
+  margin-bottom: 0.5em;
+  font-size: 400%;
+}
+
+.album header h3 {
+  margin-bottom: 2em;
+  color: #666;
+}
+
+.album footer {
+  max-width: 100ch;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: right;
+  margin-top: 80px;
+  padding-bottom: 20px;
+  font-size: 1.3em;
+  line-height: normal;
+}
+
+.link-item {
+  margin-bottom: 1.5rem;
+}
+
+.link-title {
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+.link-url {
+  margin-left: 1rem;
+  word-break: break-all;
 }
