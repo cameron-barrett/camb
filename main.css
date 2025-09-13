@@ -128,21 +128,6 @@ img.cover.slice {
   object-position: center 9%;  /* Show top portion of image (adjust as needed) */
 }
 
-/*
-DESKTOP COVER STYLING (701px+):
-Only applies white text and title positioning on larger screens where contrast is needed.
-Mobile keeps default black text for readability regardless of image content.
-
-TITLE POSITIONING STRATEGY:
-Instead of absolute positioning (which can cause layout issues), we use negative margins
-to pull the h1 up over the image. The h1 stays in normal document flow but appears
-visually overlaid on the image. This is more robust than absolute positioning.
-
-INTERACTIONS:
-- body.hasCover enables the full-width canvas
-- img.cover provides the background image to overlay on
-- .contents constrains text below while allowing image full-width
-*/
 @media (min-width: 701px) {
 /* Pull title up over image using negative margins (both units for robustness) */
   body.hasCover h1.titleLines1 {
@@ -153,25 +138,6 @@ INTERACTIONS:
   }
 }
 
-/*
-CONTENTS WRAPPER:
-This is the key innovation that allows both full-width images AND constrained content.
-The wrapper constrains paragraph text to readable widths while the image above it
-can span the full viewport. Without this, all content would be constrained to 80ch.
-
-HOW IT WORKS:
-- Image appears first, spans full viewport width (thanks to body.hasCover)
-- .contents wrapper starts below image, constrains its children to 80ch max
-- Title (h1) is pulled up over image via negative margins, but stays inside .contents
-- Paragraphs flow normally within the constrained .contents width
-
-COMPLETE SYSTEM FLOW:
-1. body.hasCover removes width constraints for full-bleed design
-2. img.cover spans full width of unconstrained body
-3. h1.titleLines1 gets pulled up over image with negative margins
-4. .contents constrains all following content to readable width
-5. Result: Full-width hero image with readable text below
-*/
 .contents {
   max-width: 60ch;
   padding: 2ch;
@@ -242,7 +208,6 @@ body.album {
   line-height: normal;
 }
 
-/* Video styling for albums */
 .album video {
   object-fit: contain;
   display: block;
